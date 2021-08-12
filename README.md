@@ -32,3 +32,7 @@ If Error happen :
 Give this command:
 
     sudo fuser -vki /var/lib/dpkg/lock-frontend
+
+Continue install process :
+
+    sudo apt install pgadmin4
