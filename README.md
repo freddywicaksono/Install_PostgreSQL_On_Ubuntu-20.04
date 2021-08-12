@@ -26,7 +26,9 @@ Start Install:
     sudo apt install pgadmin4
     
 If Error happen :
+
     E: Could not open lock file /var/lib/dpkg/lock-frontend ...
     
 Give this command:
+
     sudo fuser -vki /var/lib/dpkg/lock-frontend
